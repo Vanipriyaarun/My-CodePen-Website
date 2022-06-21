@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My project</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav_bar">
+            <span class="intro">Vilvah Store</span>
+            <ul class="menu">
+                <li class="list"><a class="link" href="#">Home</a></li>
+                <li class="list"><a class="link" href="#title">About</a></li>
+                <li class="list"><a class="link" href="#title1">Shop now</a></li>
+                <li class="list"><a class="link" href="#comment">Comment</a></li>
+                <li class="list"><a class="link" href="#sub-title1">Contact us</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <img id="list-image">
+        <div class="button">
+            <button id="previous">Previous image</button>
+            <button id="next">Next image</button>
+        </div>
+        <h1 id="title" class="title">About the product</h1>
+        <h3 class="s-title">Goat Milk Shampoo:</h3>
+        <p class="para">Get the perfect hair flip moments with our new improved Goat milk shampoo. This natural formula offers rich creamy
+            lather with ultra-moisturizing goat milk. Clinically proven pea protein helps reducing frizz and fly-away hair,
+            retains long-lasting moisturisation to the entire hair shaft. Jasmine purifies and adds exquisite shine for healthy,
+            lustrous locks. Suitable for all hair types(Straight, Wavy or Curly) Great for dry, damaged and frizzy hair</p>
+        <h3 class="s-title">Moisturising Bodywash:</h3>
+        <p class="para">A moisturizing treat for skin that needs lots of love. Enriched with Virgin Coconut oil and Acai Oil to relenish lost
+            oil and moisture of skin. This body wash awakens sensations with dovy satiny aromas while leaves skin feeling soft
+            and hydrated. Suitable for: All skin types. Great for Dry and Sensitive skin.</p>
+        <h3 class="s-title">Honeyfix Facewash:</h3>
+        <p class="para">Cleanse your face with this oil-free formulation made with a whopping 8% of honey, a natural source of glycolic acid.
+            Enriched with power-packed extracts from blackberry, papaya, gotukola and orange peel, this cleanser has gentle
+            exfoliating, pore-shrinking and complexion brightening properties. Works on your acne like magic. No sulphates, No
+            parabens, No silicones, No harsh chemicals. Suitable for : Normal to oily skin and acne prone skin</p>
+        <h3 class="s-title">Aloevera Gel (hair and face):</h3>
+        <p class="para">Our Organic Aloe vera Gel is made using the pure pressed aloe vera gel using cold stabilisation method which leads to
+            premium aloe vera gel and the quality is unmatchable with the patented method of manufacturing by sealing the
+            nutrients intact. The multi-purpose aloe vera gel carries a multitude of benefits as a skin moisturiser, prevents
+            acne, softens hair and promotes glowing skin.</p>
+        <h3 class="s-title">Cold Pressed Almond Oil:</h3>
+        <p class="para">We all know the goodness of sweet almonds. It's considered a nutrient for the brain, nervous system, and id enriched
+            in Vitamin A, B1, B2, B6, and E. So we extracted almond oil by cold-pressed method from sweet almonds to retain them
+            intact. And is the most versatile oil used for both skincare and haircare.</p>
+
+        <h1 id="title1" class="title">Shop Now</h1>
+        <h2 id="sub-title">Beauty Products</h2>
+        <div class="list-product">
+            <div class="shampoo">
+                <img class="smaller-image" src="https://tinyurl.com/2zmh59nb">
+                <div class="name"> Goat Milk Shampoo 500ml</div>
+                <div class="price">price:$ 7.00</div>
+                <button id="add1" class="add">Add Cart</button>
+            </div>
+
+            <div class="bodywash">
+                <img class="smaller-image" src="https://tinyurl.com/48tw7nj6">
+                <div class="name"> Moisturising Bodywash 500ml</div>
+                <div class="price">price:$ 8.99</div>
+                <button id="add2" class="add">Add Cart</button>
+            </div>
+
+            <div class="facewash">
+                <img class="smaller-image" src="https://tinyurl.com/bdzjtu3y">
+                <div class="name"> Honeyfix Facewash 400ml</div>
+                <div class="price">price:$ 5.99</div>
+                <button id="add3" class="add">Add Cart</button>
+            </div>
+
+            <div class="gel">
+                <img class="smaller-image" src="https://tinyurl.com/2hs2ua9w">
+                <div class="name"> Aloevera Gel (hair and face) 100g</div>
+                <div class="price">price:$ 4.01</div>
+                <button id="add4" class="add">Add Cart</button>
+            </div>
+
+            <div class="oil">
+                <img class="smaller-image" src="https://tinyurl.com/yd36w66s">
+                <div class="name"> Cold Pressed Almond Oil 400ml</div>
+                <div class="price">price:$ 5.97</div>
+                <button id="add5" class="add">Add Cart</button>
+            </div>
+        </div>
+        <h2 id="sub-title"> My Cart</h2>
+        <div id="my_cart">
+            <ul class="cart_list"></ul>
+            <img class="img_list">
+
+        </div>
+        <button id="check_out">Check Out</button>
+
+        <h2 id="comment" class="comment">Comments</h2>
+        <input id="text" class="input_comment" type="text" placeholder="Add your comment">
+        <button id="post_comment" class="post_comment">Post</button>
+        <h3 style="margin:10px 20px;">Customer comments:</h3>
+        <ul id="comment_list"></ul>
+        
+    </main>
+    <footer>
+        <h2 id="sub-title1">Contact us</h2>
+        <p class="para1">Address: B - 04 - 2, CRIMSON DAWN APARTMENT, PEELAMEDU COIMBATORE COIMBATORE TN 641004 IN</p>
+        <p class="para1">Email: contactvilvah@gmail.com</p>
+        <p class="para1">For order and product related enquiries: sales@vilvahstore.com</p>
+        <P class="para1">For Opportunities:careers@vilvahstore.com</P>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
